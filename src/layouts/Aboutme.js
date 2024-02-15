@@ -4,7 +4,7 @@ const Aboutme = () => {
     return ( 
         <div className='about-me' id='aboutme'>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta itaque nisi natus laborum explicabo, in necessitatibus fugiat quas minima dignissimos molestias ipsa fuga quaerat. Error fuga magnam impedit. Perspiciatis, harum.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis molestias laudantium, impedit praesentium dolor sit totam quos nesciunt earum consectetur vel nostrum voluptas laboriosam voluptatum tempore provident fuga corrupti animi.
             </p>
         </div>
      );

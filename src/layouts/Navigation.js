@@ -9,6 +9,8 @@ const Navigation = () => {
 
     const aboutMe = <a href="#aboutme">About Me</a>;
 
+    const projects = <a href="#projects">Projects</a>
+
     return ( 
         <div className='navigation'>
             <div className='nav'>
@@ -17,7 +19,9 @@ const Navigation = () => {
                     <li>
                         {aboutMe}
                     </li>
-                    <li>Two</li>
+                    <li>
+                        {projects}
+                    </li>
                     <li>Three</li>
                 </ul>
             </nav>

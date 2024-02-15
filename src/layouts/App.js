@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 
 import '../styles/App.css'
 import '../styles/Navigation.css'
+import '../styles/Projekty.css'
 
 import Navigation from './Navigation';
 import Welcome from './Welcome';
 import Aboutme from './Aboutme';
+import Project from './Project';
 
 
 class App extends Component {
@@ -21,6 +23,9 @@ class App extends Component {
       </main>
       <section>
         {<Aboutme/>}
+      </section>
+      <section className='project'>
+        {<Project/>}
       </section>
     </div>
    );
