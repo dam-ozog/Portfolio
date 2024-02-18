@@ -8,7 +8,7 @@ const Project = () => {
 			<div className='projects' id='projects'>
 				<div>
 					<iframe
-						src='https://dam-ozog.github.io/todoapp-react/'
+						src='https://dam-ozog.github.io/Todo-react/'
 						frameborder='0'
 						width={"450px"}
 						height={"300px"}></iframe>
