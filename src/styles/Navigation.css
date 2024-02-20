@@ -5,6 +5,7 @@
 	position: fixed;
 	display: flex;
 	justify-content: space-between;
+	letter-spacing: 3px;
 }
 
 .nav-ul a {
