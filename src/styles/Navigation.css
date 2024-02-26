@@ -1,3 +1,5 @@
+/* Naviagtion Section */
+
 .navigation {
 	background-color: orange;
 	width: 100%;
@@ -6,12 +8,14 @@
 	display: flex;
 	justify-content: space-between;
 	letter-spacing: 3px;
+	align-items: center;
 }
 
 .nav-ul a {
 	font-size: 27px;
 	font-weight: 800;
 	padding: 5px 10px;
+	width: auto;
 }
 
 .nav-ul a:hover {
@@ -22,6 +26,7 @@
 
 
 nav li {
+	display: inline-block;
 	list-style-type: none;
 	text-align: center;
 	padding: 15px 20px;
@@ -29,4 +34,35 @@ nav li {
 
 nav ul {
 	display: flex;
+}
+
+/* Kontakt Section */
+
+a {
+	text-decoration: none;
+	color: #333;
+}
+
+.ul-2 {
+	padding: 10px 15px;
+}
+
+
+
+
+
+.ul-2 a {
+	text-decoration: none;
+	font-size: 30px;
+	color: black;
+	cursor: pointer;
+}
+
+.ul-2 i {
+	transform: scale(1.3);
+}
+
+.ul-2 i:hover {
+	transform: scale(1.4);
+	transition: 0.2s;
 }
