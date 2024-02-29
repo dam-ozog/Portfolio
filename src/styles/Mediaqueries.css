@@ -1,0 +1,24 @@
+@media (max-width: 770px) {
+  .welcome-section {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 540px) {
+  .welcome-title bold {
+    font-size: 30px;
+  }
+  .welcome-title img {
+    height: 250px;
+  }
+  .about-me p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 900px) {
+  .about-me {
+    width: 100%;
+  }
+}
